@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Web Library Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+
+    <h1>WHOIS parseDomain data (static)</h1>
+    <p>
+      This page imports the browser build of the library and calls <code>parseDomain</code>.
+    </p>
+    <pre id="parseDomainOutput">loading…</pre>
+    <h1>WHOIS TLD data (static)</h1>
+    <p>
+      This page imports the browser build of the library and calls <code>tlds</code>,
+      <code>tldDetails</code>, and <code>parseDomain</code>. Run
+      <code>npm run dev</code> to explore the dataset that formerly required
+      runtime <code>fs</code> access.
+    </p>
+    <pre id="output">loading…</pre>
+
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
