@@ -1,9 +1,9 @@
-# Web JSON Library Demo
+# Whoisserver-world Web Library
 
-This repository demonstrates how to ship a browser-friendly TypeScript library that wraps the
+This repository ships a browser-friendly TypeScript library that wraps the
 [`whoisserver-world`](https://www.npmjs.com/package/whoisserver-world) dataset. The upstream package
 ships hundreds of per‑TLD JSON files and reads them at runtime via `fs`; the code here snapshots
-those assets and bakes them into a bundle that can run in any browser.
+those assets and bakes them into a bundle that can run in any browser. It also provides an object-oriented wrapper for the domain name parsing.
 
 ## Project layout
 
